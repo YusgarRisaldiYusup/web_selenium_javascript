@@ -1,0 +1,40 @@
+# Node modules
+/node_modules
+
+# Build output
+/dist
+/build
+
+# Environment files
+.env
+
+# Log files
+*.log
+
+# IDE settings
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Allure results and reports
+allure-results/
+allure-report/
+
+# NPM debug log
+npm-debug.log*
+
+# Bower dependency directory (if used)
+bower_components/
+
+# Coverage directory
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Compiled JavaScript files
+*.js.map

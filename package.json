@@ -1,0 +1,30 @@
+{
+  "name": "selenium_js",
+  "version": "1.0.0",
+  "description": "pengujian Web with Selenium Js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register --reporter mocha-allure-reporter",
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report"
+  },
+  "keywords": [
+    "selenium"
+  ],
+  "author": "YusgarYry",
+  "license": "ISC",
+  "dependencies": {
+    "edgedriver": "^5.6.1",
+    "selenium-webdriver": "^4.23.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/node": "^7.25.0",
+    "@babel/preset-env": "^7.25.3",
+    "allure-commandline": "^2.30.0",
+    "chai": "^4.5.0",
+    "mocha": "^10.7.0",
+    "mocha-allure-reporter": "^1.4.0"
+  }
+}
